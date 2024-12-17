@@ -1,0 +1,88 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: #212121;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.container .student, .container1 .student {
+  border: solid 1px #212121;
+  border-radius: .3rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1% 2%;
+}
+
+
+.container .student h1 {
+  font-size: 1.25rem;
+}
+
+.button a {
+  border: 100px;
+  padding: 4px;
+  background-color: #484848;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.button a:hover {
+  color: #484848;
+  background-color: #fff;
+  border: 2px #484848 solid;
+
+}
+
+.return {
+  width: 30%;
+  background-color: #d61616;
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  margin-left: auto;
+}
+
+.return:hover {
+  color: #d61616;
+  background-color: #fff;
+  border: 2px #d61616 solid;
+
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.container1 input {
+  width: 100%;
+  max-width: 400px;
+  padding: 5px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.container1 button{
+  width: 30%; 
+  max-width: 400px;
+  padding: 2px;
+  font-size: 15px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-left: auto;
+}
